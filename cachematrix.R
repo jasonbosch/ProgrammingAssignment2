@@ -1,7 +1,7 @@
 ## These functions will take a matrix, invert it and store the inverted matrix in the cache.
 ## When the inverted matrix is later called it will be taken from the cached value instead of recalculating it.
 
-## This function creates a list of functions concerning matrix m.
+## This function creates a list of functions concerning matrix x.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL ##This line sets m to an empty variable.
